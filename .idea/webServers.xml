@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3989a9ec-a81f-4390-bfd6-fb4e399502df" name="ssh-flasklearn">
+        <fileTransfer accessType="SFTP" host="82.156.4.130" port="22" sshConfigId="5a7a4e1e-cf62-4223-98f5-a1649a15a6d3" sshConfig="ubuntu@82.156.4.130:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

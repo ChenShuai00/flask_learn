@@ -12,7 +12,7 @@ from flask_wtf import CSRFProtect
 import filters
 
 app = Flask(__name__)
-app.config.from_object(config.ProductionConfig)
+app.config.from_object(config.DevelopmentConfig)
 migrate = Migrate(app, db)
 db.init_app(app)
 mail.init_app(app)
